@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 60vh; 
+    width: 40%;
+    background-color: rgb(17, 27, 33);
+    padding-left: 10px;
+    padding-top: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.child{
+    background-color: whitesmoke;
+    display: block;
+    margin-bottom: 20px;
+    padding: 3px;
+    border: none;
+    border-radius: 6px;
+}
+.child:first-of-type{
+    margin-top: 20px;
+}
+img{
+    width: 20px;
+}
+.exit{
+    position: absolute;
+    right: 1rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 15px;
+}
+.hidden{
+    display: none; 
+}
